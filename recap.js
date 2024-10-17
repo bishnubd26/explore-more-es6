@@ -26,5 +26,7 @@ const sum = (a, b) => a + b;
 
 
 const { age, z, ...others } = { x: 2, y: 5, z: 3, name: 'ovijeet', age: 55 }
+console.log(age);
 
 const [first, second, ...remaining] = ['ram', 'sam', 'jodu', 'modhu']
+console.log(remaining)
